@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    header{
+        margin: 0;
+        background-color: chocolate;
+        justify-content: space-between;
+        padding: 10px 30px 10px 30px;
+    }
+    nav{
+        text-decoration: none;
+        padding: 10px ;
+    }
+    ul{
+        text-decoration: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    ul>li{
+        list-style: none;
+        font-size: 15px;
+    }
+    ul li:hover{
+        text-decoration: underline;
+        font-size: 20px;
+        color: white;
+    }
+    ul>li>a{
+        text-decoration: none;
+        color: white;
+    }
+    .bán{
+        text-align: center;
+        font-size: 40px;
+        display: block;
+        justify-content: space-between;
+    }
+    main{
+        background-color: brown;
+        margin: 3%;
+        padding: 20px;
+        
+    }
+    .tieude{
+        text-align: center;
+        justify-content: space-between; 
+        display: block;
+    }
+    .dòng1{
+        margin-bottom: 0px;
+        display: block;
+        justify-content: space-between; 
+        
+    }
+    .dòngg{
+        display: flex;
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .products.h3{margin: 0;}
+    .products p{margin: 10px 0;}
+    .products button{background-color: #333; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;0
+    border-radius: 5px;
+    cursor: pointer;}
+    section form{margin-left: 35%;}
+    
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="">Sách Bán Chạy</a></li>
+                <li><a href="">Sách Mới</a></li>
+                <li><a href="">Giới Thiệu</a></li>
+                <li><a href="đăng kí.html">Đăng Kí</a></li>
+                <li><a href="dăng nhập.html">Đăng Nhập</a>
+                </li>
+            </ul>
+        </nav>
+        <h1 class="bán">BÁN SÁCH ONLINE</h1>
+    </header>
+    <main>
+        <h1 class="tieude">Sách Bán Chạy</h1>
+        <section class="dòng1">
+            <div class="dòngg">
+                <div class="phim1">
+                    <img src="sach1.jpg" alt="sach1">
+                    <h3>sách loại 1</h3>
+                    <p>Giá: <b>20.000 VNĐ</b></p>
+                    <button>Xem Ngay</button>
+                </div>
+                <div class="phim2">
+                    <img src="sach2.jpg" alt="sach2">
+                    <h3>sách loại 2</h3>
+                    <p>Giá: <b>15.000 VNĐ</b></p>
+                    <button>Xem Ngay</button>
+                </div>
+                <div class="phim3">
+                    <img src="sach3.jpg" alt="sach3">
+                    <h3>Vạn Giới Độc Tôn</h3>
+                    <h3>sách loại 3</h3>
+                    <p>Giá: <b>10.000 VNĐ</b></p>
+                    <button>Xem Ngay</button>
+                </div>
+            </div>
+        </section>
+        <section class="dòng2">
+            <div class="dòngg">
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="dòng3">
+            <div class="dòngg">
+                <div>
+
+                </div>
+                <div>
+
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </section>
+        <!--tạo section 5-->
+        <section class="section">
+            <h2>Liên Hệ</h2>
+            <form>
+                ho va ten <input type="text" name="f_name" id="f_name"><br>
+                EMAIL <input type="email" name="email" id="email"><br>
+                nội dung <input type="text" name="message" id="message"><br>
+                <button>gửi</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
